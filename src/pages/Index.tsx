@@ -155,7 +155,7 @@ const Index: React.FC = () => {
                 }}
               >
                 <span className="px-3 py-1 rounded-full bg-brand-100 text-brand text-sm font-medium mb-6 inline-block">
-                  Innovative AI & IT Solutions
+                  혁신적인 AI 및 IT 솔루션
                 </span>
               </motion.div>
               
@@ -166,8 +166,8 @@ const Index: React.FC = () => {
                 }}
                 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-balance"
               >
-                Empowering Your Business with{" "}
-                <span className="text-brand">Smart Technology</span>
+                스마트 기술로{" "}
+                <span className="text-brand">비즈니스의 혁신을 이끕니다</span>
               </motion.h1>
               
               <motion.p
@@ -177,7 +177,7 @@ const Index: React.FC = () => {
                 }}
                 className="text-lg text-gray-600 dark:text-gray-300 mb-8 max-w-lg"
               >
-                We provide tailored AI and IT solutions to help your business thrive in the digital era. Our expert team also offers specialized education to empower your team with cutting-edge skills.
+                디지털 시대에 기업의 성장을 위한 맞춤형 AI 및 IT 솔루션을 제공합니다. 또한 전문가 팀이 최신 기술 역량 강화를 위한 특화된 교육 프로그램을 제공합니다.
               </motion.p>
               
               <motion.div
@@ -189,12 +189,12 @@ const Index: React.FC = () => {
               >
                 <Button asChild size="lg" className="bg-brand hover:bg-brand-600 text-white rounded-full">
                   <Link to="/services">
-                    Explore Our Services
+                    서비스 알아보기
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Link>
                 </Button>
                 <Button asChild variant="outline" size="lg" className="rounded-full border-brand text-brand hover:bg-brand-50">
-                  <Link to="/contact">Contact Us</Link>
+                  <Link to="/contact">문의하기</Link>
                 </Button>
               </motion.div>
             </motion.div>
@@ -211,14 +211,14 @@ const Index: React.FC = () => {
                   <div className="relative aspect-square rounded-2xl overflow-hidden">
                     <img
                       src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
-                      alt="AI Technology"
+                      alt="AI 기술"
                       className="w-full h-full object-cover"
                     />
                     <div className="absolute inset-0 bg-black bg-opacity-30"></div>
                     
                     <div className="absolute bottom-6 left-6 right-6 p-4 glass rounded-xl">
-                      <h3 className="text-white font-semibold text-lg">Cutting-edge AI Solutions</h3>
-                      <p className="text-white text-opacity-90 text-sm">Empowering your business with smart technology</p>
+                      <h3 className="text-white font-semibold text-lg">최첨단 AI 솔루션</h3>
+                      <p className="text-white text-opacity-90 text-sm">스마트 기술로 비즈니스의 혁신을 이끕니다</p>
                     </div>
                   </div>
                 </div>
@@ -255,7 +255,7 @@ const Index: React.FC = () => {
               className="text-center"
             >
               <h3 className="text-4xl lg:text-5xl font-bold text-brand mb-2">50+</h3>
-              <p className="text-gray-600 dark:text-gray-400">Clients Worldwide</p>
+              <p className="text-gray-600 dark:text-gray-400">글로벌 고객사</p>
             </motion.div>
             
             <motion.div
@@ -266,7 +266,7 @@ const Index: React.FC = () => {
               className="text-center"
             >
               <h3 className="text-4xl lg:text-5xl font-bold text-brand mb-2">95%</h3>
-              <p className="text-gray-600 dark:text-gray-400">Client Satisfaction</p>
+              <p className="text-gray-600 dark:text-gray-400">고객 만족도</p>
             </motion.div>
             
             <motion.div
@@ -277,7 +277,7 @@ const Index: React.FC = () => {
               className="text-center"
             >
               <h3 className="text-4xl lg:text-5xl font-bold text-brand mb-2">100+</h3>
-              <p className="text-gray-600 dark:text-gray-400">Projects Completed</p>
+              <p className="text-gray-600 dark:text-gray-400">완료된 프로젝트</p>
             </motion.div>
             
             <motion.div
@@ -288,7 +288,7 @@ const Index: React.FC = () => {
               className="text-center"
             >
               <h3 className="text-4xl lg:text-5xl font-bold text-brand mb-2">15+</h3>
-              <p className="text-gray-600 dark:text-gray-400">Years Experience</p>
+              <p className="text-gray-600 dark:text-gray-400">업계 경험</p>
             </motion.div>
           </motion.div>
         </div>
@@ -299,51 +299,51 @@ const Index: React.FC = () => {
         <div className="container mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <span className="px-3 py-1 rounded-full bg-brand-100 text-brand text-sm font-medium mb-4 inline-block">
-              Our Services
+              서비스 소개
             </span>
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Comprehensive AI & IT Solutions for Your Business
+              비즈니스를 위한 종합 AI 및 IT 솔루션
             </h2>
             <p className="text-gray-600 dark:text-gray-400 text-lg">
-              We provide a range of customized services to help you leverage the power of AI and IT for your business growth.
+              기업 성장을 위한 AI와 IT 기술의 힘을 활용할 수 있도록 맞춤형 서비스를 제공합니다.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <FeatureCard
               icon={Brain}
-              title="AI Solutions"
-              description="Custom artificial intelligence solutions tailored to your specific business needs and challenges."
+              title="AI 솔루션"
+              description="비즈니스의 특정 요구사항과 과제에 맞춰 설계된 맞춤형 인공지능 솔루션을 제공합니다."
               delay={0}
             />
             <FeatureCard
               icon={Database}
-              title="Data Analytics"
-              description="Transform your raw data into actionable insights with our advanced analytics solutions."
+              title="데이터 분석"
+              description="고급 분석 솔루션으로 원시 데이터를 실행 가능한 통찰력으로 변환합니다."
               delay={1}
             />
             <FeatureCard
               icon={Code}
-              title="Custom Software"
-              description="Bespoke software development services designed to streamline your business operations."
+              title="맞춤형 소프트웨어"
+              description="비즈니스 운영을 간소화하도록 설계된 맞춤형 소프트웨어 개발 서비스를 제공합니다."
               delay={2}
             />
             <FeatureCard
               icon={Layers}
-              title="IT Infrastructure"
-              description="Modern, scalable, and secure IT infrastructure solutions to support your business growth."
+              title="IT 인프라"
+              description="비즈니스 성장을 지원하는 현대적이고 확장 가능하며 안전한 IT 인프라 솔루션을 제공합니다."
               delay={3}
             />
             <FeatureCard
               icon={GraduationCap}
-              title="AI Education"
-              description="Comprehensive AI training programs and workshops to upskill your team."
+              title="AI 교육"
+              description="팀의 역량을 강화하기 위한 종합적인 AI 교육 프로그램과 워크숍을 제공합니다."
               delay={4}
             />
             <FeatureCard
               icon={Zap}
-              title="Process Automation"
-              description="Automate repetitive tasks and workflows to increase efficiency and reduce costs."
+              title="프로세스 자동화"
+              description="효율성을 높이고 비용을 절감하기 위해 반복적인 작업과 워크플로우를 자동화합니다."
               delay={5}
             />
           </div>
@@ -351,7 +351,7 @@ const Index: React.FC = () => {
           <div className="text-center mt-12">
             <Button asChild size="lg" variant="outline" className="rounded-full border-brand text-brand hover:bg-brand-50">
               <Link to="/services">
-                View All Services
+                모든 서비스 보기
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
@@ -366,14 +366,14 @@ const Index: React.FC = () => {
         <div className="container mx-auto relative z-10">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Ready to Transform Your Business with AI?
+              AI로 비즈니스를 혁신할 준비가 되셨나요?
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
-              Let's discuss how our tailored AI and IT solutions can help your business grow and stay ahead of the competition.
+              맞춤형 AI 및 IT 솔루션이 비즈니스 성장과 경쟁 우위를 유지하는 데 어떻게 도움이 될 수 있는지 논의해 보세요.
             </p>
             <Button asChild size="lg" className="bg-brand hover:bg-brand-600 text-white rounded-full">
               <Link to="/contact">
-                Get in Touch
+                문의하기
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
@@ -386,33 +386,33 @@ const Index: React.FC = () => {
         <div className="container mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <span className="px-3 py-1 rounded-full bg-brand-100 text-brand text-sm font-medium mb-4 inline-block">
-              Testimonials
+              고객 후기
             </span>
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              What Our Clients Say
+              고객사의 평가
             </h2>
             <p className="text-gray-600 dark:text-gray-400 text-lg">
-              Hear from businesses that have transformed their operations with our AI and IT solutions.
+              당사의 AI 및 IT 솔루션으로 비즈니스 운영을 혁신한 기업들의 이야기를 들어보세요.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <TestimonialCard
-              text="The AI solution provided by leanIT has completely transformed our customer service operations. We've seen a 40% increase in efficiency and significantly improved customer satisfaction."
-              author="Jin-Ho Park"
-              position="CTO, Global Tech Industries"
+              text="leanIT에서 제공한 AI 솔루션은 고객 서비스 운영을 완전히 변화시켰습니다. 효율성이 40% 향상되었고 고객 만족도가 크게 개선되었습니다."
+              author="박진호"
+              position="CTO, 글로벌 테크 인더스트리"
               delay={0}
             />
             <TestimonialCard
-              text="The training programs offered by leanIT were comprehensive and practical. Our team now has the skills to implement AI solutions independently, which has been invaluable for our business."
-              author="Soo-Jin Kim"
-              position="Head of Innovation, Nexus Corporation"
+              text="leanIT에서 제공하는 교육 프로그램은 포괄적이고 실용적이었습니다. 이제 우리 팀은 자체적으로 AI 솔루션을 구현할 수 있는 기술을 갖추게 되었고, 이는 비즈니스에 매우 가치 있는 자산이 되었습니다."
+              author="김수진"
+              position="혁신 책임자, 넥서스 코퍼레이션"
               delay={1}
             />
             <TestimonialCard
-              text="Working with leanIT was a game-changer for our data analytics capabilities. Their custom solution has given us insights we never thought possible, driving strategic decisions with confidence."
-              author="Min-Jun Lee"
-              position="Data Director, Future Finance"
+              text="leanIT와의 협업은 데이터 분석 역량에 있어 게임 체인저였습니다. 맞춤형 솔루션 덕분에 전에는 불가능하다고 생각했던 인사이트를 얻을 수 있게 되었고, 이를 통해 자신감 있게 전략적 결정을 내릴 수 있게 되었습니다."
+              author="이민준"
+              position="데이터 디렉터, 퓨처 파이낸스"
               delay={2}
             />
           </div>
@@ -425,13 +425,13 @@ const Index: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <span className="px-3 py-1 rounded-full bg-brand-100 text-brand text-sm font-medium mb-4 inline-block">
-                Education
+                교육 프로그램
               </span>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Enhance Your Team's Skills with Our AI Training Programs
+                AI 교육 프로그램으로 팀의 역량을 강화하세요
               </h2>
               <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
-                We offer comprehensive training programs designed to equip your team with the skills needed to leverage AI technologies effectively.
+                AI 기술을 효과적으로 활용하는 데 필요한 기술을 갖추도록 설계된 종합적인 교육 프로그램을 제공합니다.
               </p>
               <div className="space-y-4 mb-8">
                 <div className="flex items-start gap-3">
@@ -441,8 +441,8 @@ const Index: React.FC = () => {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg">Custom Training Programs</h3>
-                    <p className="text-gray-600 dark:text-gray-400">Tailored courses designed for your team's specific needs and skill levels.</p>
+                    <h3 className="font-semibold text-lg">맞춤형 교육 프로그램</h3>
+                    <p className="text-gray-600 dark:text-gray-400">팀의 특정 요구사항과 기술 수준에 맞춰 설계된 커리큘럼을 제공합니다.</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
@@ -452,8 +452,8 @@ const Index: React.FC = () => {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg">Expert Instructors</h3>
-                    <p className="text-gray-600 dark:text-gray-400">Learn from industry professionals with real-world AI implementation experience.</p>
+                    <h3 className="font-semibold text-lg">전문 강사진</h3>
+                    <p className="text-gray-600 dark:text-gray-400">실제 AI 구현 경험을 갖춘 업계 전문가들로부터 배우게 됩니다.</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
@@ -463,14 +463,14 @@ const Index: React.FC = () => {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg">Practical Applications</h3>
-                    <p className="text-gray-600 dark:text-gray-400">Hands-on sessions focused on applying AI to solve real business problems.</p>
+                    <h3 className="font-semibold text-lg">실용적인 적용</h3>
+                    <p className="text-gray-600 dark:text-gray-400">실제 비즈니스 문제를 해결하기 위한 AI 적용에 중점을 둔 실습 세션을 진행합니다.</p>
                   </div>
                 </div>
               </div>
               <Button asChild size="lg" className="bg-brand hover:bg-brand-600 text-white rounded-full">
                 <Link to="/education">
-                  Learn More About Our Programs
+                  교육 프로그램 자세히 알아보기
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
@@ -482,14 +482,14 @@ const Index: React.FC = () => {
                 <div className="relative aspect-video rounded-2xl overflow-hidden">
                   <img
                     src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
-                    alt="AI Education"
+                    alt="AI 교육"
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 bg-black bg-opacity-30"></div>
                   
                   <div className="absolute bottom-6 left-6 right-6 p-4 glass rounded-xl">
-                    <h3 className="text-white font-semibold text-lg">Expert-Led Training</h3>
-                    <p className="text-white text-opacity-90 text-sm">Comprehensive AI education for your team</p>
+                    <h3 className="text-white font-semibold text-lg">전문가 주도 교육</h3>
+                    <p className="text-white text-opacity-90 text-sm">팀을 위한 종합적인 AI 교육 프로그램</p>
                   </div>
                 </div>
               </div>
