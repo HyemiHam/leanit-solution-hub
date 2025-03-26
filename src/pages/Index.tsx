@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
 import { ArrowRight, Brain, Code, Database, FileCode, GraduationCap, Layers, Zap } from "lucide-react";
@@ -167,8 +166,8 @@ const Index: React.FC = () => {
                 }}
                 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-balance"
               >
-                Transforming Businesses with{" "}
-                <span className="text-brand">Custom AI Solutions</span>
+                Empowering Your Business with{" "}
+                <span className="text-brand">Smart Technology</span>
               </motion.h1>
               
               <motion.p
