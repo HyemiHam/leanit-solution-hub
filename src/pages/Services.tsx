@@ -1,7 +1,6 @@
-
 import React, { useEffect, useRef } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
-import { ArrowRight, Brain, Code, Database, FileCode, Layers, Zap, Server, Shield, BarChart, Robot, Cpu } from "lucide-react";
+import { ArrowRight, Brain, Code, Database, FileCode, Layers, Zap, Server, Shield, BarChart, Bot, Cpu } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
@@ -227,7 +226,7 @@ const Services: React.FC = () => {
               delay={0}
             />
             <ServiceCard
-              icon={Robot}
+              icon={Bot}
               title="Process Automation"
               description="Streamline operations with intelligent process automation."
               features={[
@@ -436,3 +435,5 @@ const Services: React.FC = () => {
 };
 
 export default Services;
+
+
